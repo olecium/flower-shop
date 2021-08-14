@@ -1,7 +1,52 @@
 body{
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.1;
 }
-h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
+
+h1.main-header,
+h1.secondary-header,
+h3.section-header{
+    font-family: 'Playfair Display', Georgia, serif;
+}
+h1.main-header{
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+h2.secondary-header{
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+h3.section-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+}/*
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+*/
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.home .home__text{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+.contacts__map{
+    position: relative;
+    overflow: hidden;
+}
+.contacts__map iframe{
+    border: 0 none;
+    position: relative;
 }
